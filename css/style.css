@@ -1,0 +1,511 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+  font-family: 'PT Sans', sans-serif;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
+/* ===== Header Part Started ===== */
+header {
+  width: 100%;
+  padding: 20px 0px;
+  background: #fcdb00;
+}
+.menu-section{
+  width: 100%;
+  padding: 10px 0px 30px;
+}
+.bg-light{
+  background: transparent!important;
+}
+.menu-section .navbar-light .navbar-nav .nav-link{
+  color: #000;
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid #fcdb00;
+  border-radius: 20px;
+  padding: 8px 30px;
+  transition: 1s;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+  color: #fcdb00;
+  background: #000;
+  padding: 8px 30px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.banner-section{
+  width: 100%;
+  padding: 20px 0px 50px;
+}
+.banner-section .text-inner{
+  margin-top: 15%;
+}
+.banner-section .text-inner h1{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.banner-section .text-inner h4{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.banner-section .text-inner p{
+  color: #555;
+  margin-bottom: 30px;
+}
+.banner-section .pad-icon{
+  margin-left: 30%;
+}
+/* ===== Ended ===== */
+
+/* ===== Feature Part Started ===== */
+.feature-section{
+  width: 100%;
+  padding: 70px 0px 90px;
+}
+.feature-section .title{
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.feature-section .title h2{
+  font-size: 25px;
+}
+.feature-section .title p{
+ margin-top: 10px;
+}
+.feature-1{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.feature-2{
+  margin-left: 3%;
+}
+.feature-section .inner .email{
+  margin-left: 10px;
+}
+.feature-section .inner .bookmark{
+  margin-left: 15px;
+}
+.feature-section .inner .media .fa{
+    font-size: 45px;
+}
+.feature-section .inner .media-body{
+  margin: 0px 0px 0px 10px;
+}
+.feature-section .inner .media-body p{
+  color: #ababab;
+}
+/* ===== Ended ===== */
+
+/* ===== Footer Part Started ===== */
+footer{
+  width: 100%;
+  padding: 60px 0px;
+  background: #010101;
+}
+.sub-footer .title{
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.sub-footer .title h2{
+  font-size: 25px;
+  color: #fcdb00;
+  letter-spacing: 2px;
+}
+.sub-footer .title p{
+ margin-top: 10px;
+ color: #717171;
+}
+.sub-footer .form-inline .form-control{
+  width: 95%;
+  padding: 20px;
+}
+.sub-footer .form-inline .form-control:focus{
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+.sub-footer .form-inline .form-group{
+  width: 65%;
+  margin-left: 10%!important;
+}
+.sub-footer .form-inline .btn-primary{
+  color: #000;
+  background-color: #fcdb00;
+  border: 1px solid #fcdb00;
+  padding: 8px 30px;
+  font-weight: 700;
+  margin-left: -15px;
+  transition: 1s;
+}
+.sub-footer .form-inline .btn-primary:hover, .sub-footer .form-inline .btn-primary:focus{
+  color: #fcdb00;
+  background-color: transparent;
+  border: 1px solid #fcdb00;
+}
+.sub-footer .social-icons{
+  margin-top: 7%;
+  margin-left: 9%;
+}
+.sub-footer .social-icons ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.sub-footer .social-icons ul li a .fa{
+  color: #000;
+  font-size: 20px;
+  background:  #fcdb00;
+  padding: 10px;
+  border: 1px solid #fcdb00;
+  border-radius: 5px;
+  transition: 1s;
+}
+.sub-footer .social-icons ul li a .fa:hover{
+  color: #fcdb00;
+  background: transparent;
+  border: 1px solid #fcdb00;
+}
+.main-footer{
+  width: 100%;
+  padding: 70px 0px 30px;
+}
+.main-footer .footer-inner{
+  color: #d4d4d4;
+}
+.main-footer .footer-inner .info-list li{
+  list-style: none;
+}
+.main-footer .footer-inner .info-list li a{
+  color: #d4d4d4;
+}
+.main-footer .footer-inner .info-list li a:hover{
+  color: #fcdb00;
+}
+/* ===== Ended ===== */
+
+
+/* ===== Media Query Started ===== */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .menu-section .navbar-light .navbar-nav .nav-link{
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 22px;
+    font-size: 16px;
+  }
+  .banner-section .text-inner{
+    margin-top: -10%;
+    margin-left: 10px;
+  }
+  .banner-section .text-inner h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .banner-section .text-inner h4{
+    font-size: 16px;
+  }
+  .banner-section .text-inner p{
+    font-size: 11px;
+  }
+  .banner-section .text-inner img{
+    display: block;
+    margin-left: 14%;
+  }
+  .banner-section .pad-icon{
+    margin-left: 0%;
+    margin-top: 15%;
+  }
+  .feature-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .feature-section .title{
+    margin-bottom: 40px;
+  }
+  .feature-section .title p{
+    font-size: 14px;
+  }
+  .feature-section .feature-1{
+    margin-left: 0%;
+  }
+  .feature-section .feature-2{
+    margin-left: -3%;
+  }
+  .feature-section .inner p{
+    font-size: 14px;
+  }
+  .feature-section .inner .tablet{
+    margin-left: 8px;
+  }
+  .feature-section .inner .email{
+    margin-left: 5px;
+  }
+  footer{
+    padding-top: 50px;
+  }
+  footer .title p{
+    font-size: 14px;
+  }
+  .col-md-3{
+    padding-left: 20%;
+  }
+  .col-md-2{
+    width: 23%;
+    margin-top: 30px;
+  }
+  .first{
+    margin-left: -20px;
+  }
+  .second{
+    margin-left: 10px;
+  }
+  .third{
+    margin-right: 10px;
+  }
+  .fourth{
+    margin-left: 10px;
+  }
+  .sub-footer .form-inline .form-control{
+    width: 120%;
+  }
+  .sub-footer .form-inline .form-group{
+    width: 65%;
+    margin-left: 10%!important;
+  }
+  .sub-footer .form-inline .btn-primary{
+    margin: auto;
+  }
+  .sub-footer .social-icons{
+    margin-left: 9%;
+  }
+  .sub-footer .social-icons ul li a .fa{
+    font-size: 14px;
+  }
+  .main-footer{
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .main-footer .footer-inner p{
+    font-size: 14px;
+  }
+  .main-footer .footer-inner .info-list li a{
+    font-size: 14px;
+  }
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .menu-section .navbar-light .navbar-nav .nav-link{
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: 22px;
+    font-size: 16px;
+  }
+  .banner-section .text-inner{
+    margin-top: -5%;
+    margin-left: 17%;
+  }
+  .banner-section .text-inner h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .banner-section .text-inner h4{
+    font-size: 16px;
+  }
+  .banner-section .text-inner p{
+    font-size: 14px;
+  }
+  .banner-section .text-inner img{
+    display: block;
+    margin-left: 15%;
+  }
+  .banner-section .pad-icon{
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  .feature-section{
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .feature-section .title{
+    margin-bottom: 40px;
+  }
+  .feature-section .title p{
+    font-size: 15px;
+  }
+  .feature-section .feature-1{
+    margin-left: 18%;
+  }
+  .feature-section .feature-2{
+    margin-left: 16%;
+  }
+  .feature-section .inner p{
+    font-size: 14px;
+  }
+  .feature-section .inner .tablet{
+    margin-left: 8px;
+  }
+  .feature-section .inner .email{
+    margin-left: 5px;
+  }
+  footer{
+    padding-top: 60px;
+  }
+  footer .title p{
+    font-size: 15px;
+  }
+  .col-md-3{
+    padding-left: 30%;
+  }
+  .col-md-2{
+    width: 25%;
+    margin-top: 30px;
+    padding-left: 5%;
+  }
+  .sub-footer .form-inline .form-control{
+    width: 80%;
+  }
+  .sub-footer .form-inline .form-group{
+    width: 65%;
+    margin-left: 8%!important;
+  }
+  .sub-footer .form-inline .btn-primary{
+    margin-left: -7%;
+  }
+  .sub-footer .social-icons{
+    margin-left: 23%;
+  }
+  .sub-footer .social-icons ul li a .fa{
+    font-size: 14px;
+  }
+  .main-footer{
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .main-footer .footer-inner p{
+    font-size: 14px;
+  }
+  .main-footer .footer-inner .info-list li a{
+    font-size: 14px;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .menu-section .navbar-light .navbar-nav .nav-link{
+    width: 20%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 22px;
+  }
+  .banner-section .text-inner{
+    margin-top: 25%;
+  }
+  .banner-section .text-inner h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .banner-section .text-inner h4{
+    font-size: 18px;
+  }
+  .banner-section .text-inner p{
+    font-size: 13px;
+  }
+  .banner-section .pad-icon{
+    margin-top: -5%;
+    margin-left: 0;
+  }
+  .feature-section{
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .feature-section .title{
+    margin-bottom: 50px;
+  }
+  .feature-section .title p{
+    font-size: 15px;
+  }
+  .feature-section .feature-1{
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .feature-section .feature-2{
+    margin-left: -2%;
+  }
+  .feature-section .inner p{
+    font-size: 15px;
+  }
+  .feature-section .inner .tablet{
+    margin-left: 8px;
+  }
+  .feature-section .inner .email{
+    margin-left: -2px;
+  }
+  .feature-section .inner .bookmark{
+    margin-left: 5px;
+  }
+  footer{
+    padding-top: 60px;
+  }
+  footer .title p{
+    font-size: 15px;
+  }
+  .offset-md-2{
+    margin-left: 13%;
+  }
+  .sub-footer .form-inline .form-control{
+    width: 95%;
+    padding: 20px;
+  }
+  .sub-footer .form-inline .form-group{
+    width: 65%;
+  }
+  .sub-footer .social-icons{
+    margin-left: -5%;
+  }
+  .sub-footer .social-icons ul li a .fa{
+    font-size: 14px;
+  }
+  .main-footer{
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .main-footer .footer-inner p{
+    font-size: 14px;
+  }
+  .main-footer .footer-inner .info-list li a{
+    font-size: 14px;
+  }
+
+}
+/* ===== Ended ===== */
