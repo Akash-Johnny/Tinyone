@@ -265,23 +265,27 @@ footer{
   footer .title p{
     font-size: 14px;
   }
-  .col-md-3{
+  .address{
     padding-left: 20%;
   }
-  .col-md-2{
+  .first{
     width: 23%;
     margin-top: 30px;
-  }
-  .first{
     margin-left: -20px;
   }
   .second{
+    width: 23%;
+    margin-top: 30px;
     margin-left: 10px;
   }
   .third{
+    width: 23%;
+    margin-top: 30px;
     margin-right: 10px;
   }
   .fourth{
+    width: 23%;
+    margin-top: 30px;
     margin-left: 10px;
   }
   .sub-footer .form-inline .form-control{
@@ -379,10 +383,30 @@ footer{
   footer .title p{
     font-size: 15px;
   }
-  .col-md-3{
+  .col-md-2{
+    width: 25%;
+    margin-top: 30px;
+    padding-left: 5%;
+  }
+  .address{
     padding-left: 30%;
   }
-  .col-md-2{
+  .first{
+    width: 25%;
+    margin-top: 30px;
+    padding-left: 5%;
+  }
+  .second{
+    width: 25%;
+    margin-top: 30px;
+    padding-left: 5%;
+  }
+  .third{
+    width: 25%;
+    margin-top: 30px;
+    padding-left: 5%;
+  }
+  .fourth{
     width: 25%;
     margin-top: 30px;
     padding-left: 5%;
