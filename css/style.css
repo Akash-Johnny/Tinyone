@@ -306,7 +306,6 @@ footer{
   }
   .main-footer{
     padding-top: 40px;
-    padding-bottom: 0px;
   }
   .main-footer .footer-inner p{
     font-size: 14px;
@@ -314,7 +313,6 @@ footer{
   .main-footer .footer-inner .info-list li a{
     font-size: 14px;
   }
-
 
 }
 
@@ -382,11 +380,6 @@ footer{
   }
   footer .title p{
     font-size: 15px;
-  }
-  .col-md-2{
-    width: 25%;
-    margin-top: 30px;
-    padding-left: 5%;
   }
   .address{
     padding-left: 30%;
@@ -523,6 +516,7 @@ footer{
   .main-footer{
     padding-top: 40px;
     padding-bottom: 0px;
+    margin-left: -4%;
   }
   .main-footer .footer-inner p{
     font-size: 14px;
@@ -530,6 +524,6 @@ footer{
   .main-footer .footer-inner .info-list li a{
     font-size: 14px;
   }
-
+  
 }
 /* ===== Ended ===== */
